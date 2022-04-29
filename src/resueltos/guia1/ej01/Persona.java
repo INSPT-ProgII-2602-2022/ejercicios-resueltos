@@ -1,5 +1,5 @@
 
-package resueltos.guia1.ejercicio1;
+package resueltos.guia1.ej01;
 
 import java.time.LocalDate;
 
@@ -55,7 +55,7 @@ public class Persona {
         if(nombre != null && nombre.length() >= 3) {
            this.nombre = nombre; 
         }
-    }
+    }  
 
     public void setApellido(String apellido) {
         if(apellido != null && apellido.length() >= 2) {
