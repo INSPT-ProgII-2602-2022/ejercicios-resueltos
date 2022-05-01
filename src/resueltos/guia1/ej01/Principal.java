@@ -11,6 +11,8 @@ public class Principal {
     public static void main(String[] args) {
         Persona per1 = new Persona("Maria", "Gomez", 1990);
         
+        System.out.println(per1);
+        
         // El método hashCode() devuelve un int que representa la referencia del objeto
         System.out.println("Probando el objeto " + per1.hashCode());
         

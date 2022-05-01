@@ -63,12 +63,12 @@ public class Persona {
         }
     }    
 
-    @Override
-    public String toString() {
-        return "Persona{" + "nombre=" + nombre + 
-                ", apellido=" + apellido + 
-                ", anioNacimiento=" + anioNacimiento + '}';
-    }
+//    @Override
+//    public String toString() {
+//        return "Persona{" + "nombre=" + nombre + 
+//                ", apellido=" + apellido + 
+//                ", anioNacimiento=" + anioNacimiento + '}';
+//    }
     
     
     
