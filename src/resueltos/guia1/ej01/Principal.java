@@ -9,8 +9,8 @@ package resueltos.guia1.ej01;
 public class Principal {
 
     public static void main(String[] args) {
-        Persona per1 = new Persona("Maria", "Gomez", 1990);
-        
+        Persona per1 = new Persona("Maria", "Gomez", 1990);        
+        per1.setAnioNacimiento(1992);
         System.out.println(per1);
         
         // El método hashCode() devuelve un int que representa la referencia del objeto
@@ -18,6 +18,7 @@ public class Principal {
         
         System.out.print("Nombre completo: ");
         System.out.println(per1.nombreCompleto());
+        
         
         System.out.print("Edad: ");
         System.out.println(per1.getEdad());

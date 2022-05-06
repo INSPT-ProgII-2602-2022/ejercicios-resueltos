@@ -15,7 +15,6 @@ public class Persona {
     private int anioNacimiento;
     
     // Esto es un constructor
-
     public Persona(String nombre, String apellido, int anioNacimiento) {
         setNombre(nombre);
         setApellido(apellido);
@@ -63,12 +62,12 @@ public class Persona {
         }
     }    
 
-//    @Override
-//    public String toString() {
-//        return "Persona{" + "nombre=" + nombre + 
-//                ", apellido=" + apellido + 
-//                ", anioNacimiento=" + anioNacimiento + '}';
-//    }
+    @Override
+    public String toString() {
+        return "Persona{" + "nombre=" + nombre + 
+                ", apellido=" + apellido + 
+                ", anioNacimiento=" + anioNacimiento + '}';
+    }
     
     
     
